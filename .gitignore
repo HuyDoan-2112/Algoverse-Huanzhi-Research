@@ -1,0 +1,35 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# === Virtual environment ===
+venv/
+env/
+.venv/
+
+# === FastAPI / temp files ===
+static/*.jpg
+static/*.png
+static/*.jpeg
+uploads/
+tmp/
+temp/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# === Jupyter / notebooks (nếu có) ===
+.ipynb_checkpoints/
+*.ipynb
+
+# === OS ===
+Thumbs.db
