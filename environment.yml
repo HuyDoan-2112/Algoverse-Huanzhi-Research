@@ -1,11 +1,13 @@
 name: huanzhi-memh
 channels:
-  - conda-forge
-  - defaults
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
+    - conda-forge
+    - defaults
+    - https://repo.anaconda.com/pkgs/main
+    - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - python=3.10
-  - fastapi
-  - numpy
-prefix: /opt/anaconda3/envs/algoverse
+    - fastapi
+    - numpy
+    - python=3.10
+    - opencv
+    - anthropic
+prefix: /opt/anaconda3/envs/huanzhi-memh
